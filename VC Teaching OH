@@ -1,0 +1,1224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <link href="https://fonts.googleahttps://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Semibold.woff2" rel="stylesheet" type="text/css">
+    <link href="https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Light.woff2" rel="stylesheet" type="text/css">
+    <link href="https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Semibold.woff2" rel="stylesheet" type="text/css">
+    <link href="https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Light.woff2" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
+    <!--[if !mso]><!-->
+    <!--<![endif]-->
+    <!--[if mso]>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG />
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style>
+      .outlook-group-fix {
+      width:100% !important;
+      }
+    </style>
+    <![endif]-->
+    <!--[if !mso]><!-->
+    <!--<![endif]-->
+    <style type="text/css">
+      /*Custom Fonts*/
+      @font-face {
+        font-family:"Stag";
+        font-weight:200;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Light.woff2) format("woff2");
+      }
+
+      @font-face {
+        font-family:"Stag";
+        font-weight:600;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Semibold.woff2) format("woff2");
+      }
+
+      @font-face {
+        font-family:"Stag Sans";
+        font-weight:200;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Light.woff2) format("woff2");
+      }
+
+      @font-face {
+        font-family:"Stag Sans";
+        font-weight:600;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Semibold.woff2) format("woff2");
+      }
+
+      #outlook a {
+        padding:0;
+      }
+
+      .ReadMsgBody {
+        width:100%;
+      }
+
+      .ExternalClass {
+        width:100%;
+      }
+
+      .ExternalClass * {
+        line-height:100%;
+        line-height:100%;
+      }
+
+      body {
+        margin:0;
+        padding:0;
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+        font-family:"Stag Sans","Roboto",Sans-Serif;
+        background-color:#FFFFFF;
+      }
+
+      table,td {
+        border-collapse:collapse;
+        mso-table-lspace:0;
+        mso-table-rspace:0;
+      }
+
+      img {
+        border:0;
+        height:auto;
+        line-height:100%;
+        outline:none;
+        text-decoration:none;
+        -ms-interpolation-mode:bicubic;
+      }
+
+      p {
+        display:block;
+        margin:13px 0;
+        font-size:1.1em;
+        font-family:"Stag Sans","Roboto",Sans-Serif;
+      }
+
+      h1 {
+        font-family:"Stag","Roboto",Sans-Serif;
+        font-size:25px;
+      }
+
+      .tick::after {
+        content:"\2714 \FE0E";
+      }
+
+      .cta-button {
+        border:2px solid #FFFFFF;
+      }
+
+      .cta-button:hover {
+        color:#ad1472 !important;
+        background:#FFFFFF !important;
+        transition:background 300ms;
+        border:2px solid #ad1472;
+        -webkit-animation:swing 1s ease;
+        animation:swing 1s ease;
+        -webkit-animation-iteration-count:1;
+        animation-iteration-count:1;
+      }
+
+      .cta-button:hover a {
+        color:#ad1472 !important;
+      }
+
+      .cta-button-footer:hover {
+        border:2px solid white !important;
+        color:#FFFFFF !important;
+        background:#ad1472 !important;
+        transition:background 300ms;
+      }
+
+      .cta-button-footer:hover a {
+        color:#FFFFFF !important;
+        background:#ad1472 !important;
+        transition:background 300ms;
+      }
+
+      @-webkit-keyframes swing {
+        15% {
+          -webkit-transform:translateX(5px);
+          transform:translateX(5px);
+        }
+
+        30% {
+          -webkit-transform:translateX(-5px);
+          transform:translateX(-5px);
+        }
+
+        50% {
+          -webkit-transform:translateX(3px);
+          transform:translateX(3px);
+        }
+
+        65% {
+          -webkit-transform:translateX(-3px);
+          transform:translateX(-3px);
+        }
+
+        80% {
+          -webkit-transform:translateX(2px);
+          transform:translateX(2px);
+        }
+
+        100% {
+          -webkit-transform:translateX(0);
+          transform:translateX(0);
+        }
+      }
+
+      @keyframes swing {
+        15% {
+          -webkit-transform:translateX(5px);
+          transform:translateX(5px);
+        }
+
+        30% {
+          -webkit-transform:translateX(-5px);
+          transform:translateX(-5px);
+        }
+
+        50% {
+          -webkit-transform:translateX(3px);
+          transform:translateX(3px);
+        }
+
+        65% {
+          -webkit-transform:translateX(-3px);
+          transform:translateX(-3px);
+        }
+
+        80% {
+          -webkit-transform:translateX(2px);
+          transform:translateX(2px);
+        }
+
+        100% {
+          -webkit-transform:translateX(0);
+          transform:translateX(0);
+        }
+      }
+
+      /*Custom Fonts*/
+      @font-face {
+        font-family:"Stag";
+        font-weight:200;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Light.woff2) format("woff2");
+      }
+
+      @font-face {
+        font-family:"Stag";
+        font-weight:600;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Semibold.woff2) format("woff2");
+      }
+
+      @font-face {
+        font-family:"Stag Sans";
+        font-weight:200;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Light.woff2) format("woff2");
+      }
+
+      @font-face {
+        font-family:"Stag Sans";
+        font-weight:600;
+        src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Semibold.woff2) format("woff2");
+      }
+
+      #outlook a {
+        padding:0;
+      }
+
+      .ReadMsgBody {
+        width:100%;
+      }
+
+      .ExternalClass {
+        width:100%;
+      }
+
+      .ExternalClass * {
+        line-height:100%;
+        line-height:100%;
+      }
+
+      body {
+        margin:0;
+        padding:0;
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+        font-family:"Stag Sans","Roboto",Sans-Serif;
+        background-color:#FFFFFF;
+      }
+
+      table,td {
+        border-collapse:collapse;
+        mso-table-lspace:0;
+        mso-table-rspace:0;
+      }
+
+      img {
+        border:0;
+        height:auto;
+        line-height:100%;
+        outline:none;
+        text-decoration:none;
+        -ms-interpolation-mode:bicubic;
+      }
+
+      p {
+        display:block;
+        margin:13px 0;
+        font-size:1.1em;
+        font-family:"Stag Sans","Roboto",Sans-Serif;
+      }
+
+      h1 {
+        font-family:"Stag","Roboto",Sans-Serif;
+        font-size:25px;
+      }
+
+      .tick::after {
+        content:"\2714 \FE0E";
+      }
+
+      .cta-button {
+        border:2px solid #FFFFFF;
+      }
+
+      .cta-button:hover {
+        color:#ad1472 !important;
+        background:#FFFFFF !important;
+        transition:background 300ms;
+        border:2px solid #ad1472;
+        -webkit-animation:swing 1s ease;
+        animation:swing 1s ease;
+        -webkit-animation-iteration-count:1;
+        animation-iteration-count:1;
+      }
+
+      .cta-button:hover a {
+        color:#ad1472 !important;
+      }
+
+      .cta-button-footer:hover {
+        border:2px solid white !important;
+        color:#FFFFFF !important;
+        background:#ad1472 !important;
+        transition:background 300ms;
+      }
+
+      .cta-button-footer:hover a {
+        color:#FFFFFF !important;
+        background:#ad1472 !important;
+        transition:background 300ms;
+      }
+
+      @-webkit-keyframes swing {
+        15% {
+          -webkit-transform:translateX(5px);
+          transform:translateX(5px);
+        }
+
+        30% {
+          -webkit-transform:translateX(-5px);
+          transform:translateX(-5px);
+        }
+
+        50% {
+          -webkit-transform:translateX(3px);
+          transform:translateX(3px);
+        }
+
+        65% {
+          -webkit-transform:translateX(-3px);
+          transform:translateX(-3px);
+        }
+
+        80% {
+          -webkit-transform:translateX(2px);
+          transform:translateX(2px);
+        }
+
+        100% {
+          -webkit-transform:translateX(0);
+          transform:translateX(0);
+        }
+      }
+
+      @keyframes swing {
+        15% {
+          -webkit-transform:translateX(5px);
+          transform:translateX(5px);
+        }
+
+        30% {
+          -webkit-transform:translateX(-5px);
+          transform:translateX(-5px);
+        }
+
+        50% {
+          -webkit-transform:translateX(3px);
+          transform:translateX(3px);
+        }
+
+        65% {
+          -webkit-transform:translateX(-3px);
+          transform:translateX(-3px);
+        }
+
+        80% {
+          -webkit-transform:translateX(2px);
+          transform:translateX(2px);
+        }
+
+        100% {
+          -webkit-transform:translateX(0);
+          transform:translateX(0);
+        }
+      }
+
+      @media screen {
+        @font-face {
+        }
+
+        @media only screen and (max-width:480px) {
+          .header-pf {
+            padding-top:170px !important;
+          }
+
+          @-ms-viewport {
+            width:320px;
+          }
+
+          @viewport {
+            width:320px;
+          }
+        }
+
+        /*Custom Fonts*/
+        @font-face {
+          font-family:"Stag";
+          font-weight:200;
+          src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+          font-family:"Stag";
+          font-weight:600;
+          src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Semibold.woff2) format("woff2");
+        }
+
+        @font-face {
+          font-family:"Stag Sans";
+          font-weight:200;
+          src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Light.woff2) format("woff2");
+        }
+
+        @font-face {
+          font-family:"Stag Sans";
+          font-weight:600;
+          src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Semibold.woff2) format("woff2");
+        }
+
+        #outlook a {
+          padding:0;
+        }
+
+        .ReadMsgBody {
+          width:100%;
+        }
+
+        .ExternalClass {
+          width:100%;
+        }
+
+        .ExternalClass * {
+          line-height:100%;
+          line-height:100%;
+        }
+
+        body {
+          margin:0;
+          padding:0;
+          -webkit-text-size-adjust:100%;
+          -ms-text-size-adjust:100%;
+          font-family:"Stag Sans","Roboto",Sans-Serif;
+          background-color:#FFFFFF;
+        }
+
+        table,td {
+          border-collapse:collapse;
+          mso-table-lspace:0;
+          mso-table-rspace:0;
+        }
+
+        img {
+          border:0;
+          height:auto;
+          line-height:100%;
+          outline:none;
+          text-decoration:none;
+          -ms-interpolation-mode:bicubic;
+        }
+
+        p {
+          display:block;
+          margin:13px 0;
+          font-size:1.1em;
+          font-family:"Stag Sans","Roboto",Sans-Serif;
+        }
+
+        h1 {
+          font-family:"Stag","Roboto",Sans-Serif;
+          font-size:25px;
+        }
+
+        .tick::after {
+          content:"\2714 \FE0E";
+        }
+
+        .cta-button {
+          border:2px solid #FFFFFF;
+        }
+
+        .cta-button:hover {
+          color:#ad1472 !important;
+          background:#FFFFFF !important;
+          transition:background 300ms;
+          border:2px solid #ad1472;
+          -webkit-animation:swing 1s ease;
+          animation:swing 1s ease;
+          -webkit-animation-iteration-count:1;
+          animation-iteration-count:1;
+        }
+
+        .cta-button:hover a {
+          color:#ad1472 !important;
+        }
+
+        .cta-button-footer:hover {
+          border:2px solid white !important;
+          color:#FFFFFF !important;
+          background:#ad1472 !important;
+          transition:background 300ms;
+        }
+
+        .cta-button-footer:hover a {
+          color:#FFFFFF !important;
+          background:#ad1472 !important;
+          transition:background 300ms;
+        }
+
+        @-webkit-keyframes swing {
+          15% {
+            -webkit-transform:translateX(5px);
+            transform:translateX(5px);
+          }
+
+          30% {
+            -webkit-transform:translateX(-5px);
+            transform:translateX(-5px);
+          }
+
+          50% {
+            -webkit-transform:translateX(3px);
+            transform:translateX(3px);
+          }
+
+          65% {
+            -webkit-transform:translateX(-3px);
+            transform:translateX(-3px);
+          }
+
+          80% {
+            -webkit-transform:translateX(2px);
+            transform:translateX(2px);
+          }
+
+          100% {
+            -webkit-transform:translateX(0);
+            transform:translateX(0);
+          }
+        }
+
+        @keyframes swing {
+          15% {
+            -webkit-transform:translateX(5px);
+            transform:translateX(5px);
+          }
+
+          30% {
+            -webkit-transform:translateX(-5px);
+            transform:translateX(-5px);
+          }
+
+          50% {
+            -webkit-transform:translateX(3px);
+            transform:translateX(3px);
+          }
+
+          65% {
+            -webkit-transform:translateX(-3px);
+            transform:translateX(-3px);
+          }
+
+          80% {
+            -webkit-transform:translateX(2px);
+            transform:translateX(2px);
+          }
+
+          100% {
+            -webkit-transform:translateX(0);
+            transform:translateX(0);
+          }
+        }
+
+        @media screen {
+          @font-face {
+          }
+
+          @media only screen and (max-width:480px) {
+            .header-pf {
+              padding-top:170px !important;
+            }
+
+            @-ms-viewport {
+              width:320px;
+            }
+
+            @viewport {
+              width:320px;
+            }
+          }
+
+          /*Custom Fonts*/
+          @font-face {
+            font-family:"Stag";
+            font-weight:200;
+            src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Light.woff2) format("woff2");
+          }
+
+          @font-face {
+            font-family:"Stag";
+            font-weight:600;
+            src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Semibold.woff2) format("woff2");
+          }
+
+          @font-face {
+            font-family:"Stag Sans";
+            font-weight:200;
+            src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Light.woff2) format("woff2");
+          }
+
+          @font-face {
+            font-family:"Stag Sans";
+            font-weight:600;
+            src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Semibold.woff2) format("woff2");
+          }
+
+          #outlook a {
+            padding:0;
+          }
+
+          .ReadMsgBody {
+            width:100%;
+          }
+
+          .ExternalClass {
+            width:100%;
+          }
+
+          .ExternalClass * {
+            line-height:100%;
+            line-height:100%;
+          }
+
+          body {
+            margin:0;
+            padding:0;
+            -webkit-text-size-adjust:100%;
+            -ms-text-size-adjust:100%;
+            font-family:"Stag Sans","Roboto",Sans-Serif;
+            background-color:#FFFFFF;
+          }
+
+          table,td {
+            border-collapse:collapse;
+            mso-table-lspace:0;
+            mso-table-rspace:0;
+          }
+
+          img {
+            border:0;
+            height:auto;
+            line-height:100%;
+            outline:none;
+            text-decoration:none;
+            -ms-interpolation-mode:bicubic;
+          }
+
+          p {
+            display:block;
+            margin:13px 0;
+            font-size:1.1em;
+            font-family:"Stag Sans","Roboto",Sans-Serif;
+          }
+
+          h1 {
+            font-family:"Stag","Roboto",Sans-Serif;
+            font-size:25px;
+          }
+
+          .tick::after {
+            content:"\2714 \FE0E";
+          }
+
+          .cta-button {
+            border:2px solid #FFFFFF;
+          }
+
+          .cta-button:hover {
+            color:#ad1472 !important;
+            background:#FFFFFF !important;
+            transition:background 300ms;
+            border:2px solid #ad1472;
+            -webkit-animation:swing 1s ease;
+            animation:swing 1s ease;
+            -webkit-animation-iteration-count:1;
+            animation-iteration-count:1;
+          }
+
+          .cta-button:hover a {
+            color:#ad1472 !important;
+          }
+
+          .cta-button-footer:hover {
+            border:2px solid white !important;
+            color:#FFFFFF !important;
+            background:#ad1472 !important;
+            transition:background 300ms;
+          }
+
+          .cta-button-footer:hover a {
+            color:#FFFFFF !important;
+            background:#ad1472 !important;
+            transition:background 300ms;
+          }
+
+          @-webkit-keyframes swing {
+            15% {
+              -webkit-transform:translateX(5px);
+              transform:translateX(5px);
+            }
+
+            30% {
+              -webkit-transform:translateX(-5px);
+              transform:translateX(-5px);
+            }
+
+            50% {
+              -webkit-transform:translateX(3px);
+              transform:translateX(3px);
+            }
+
+            65% {
+              -webkit-transform:translateX(-3px);
+              transform:translateX(-3px);
+            }
+
+            80% {
+              -webkit-transform:translateX(2px);
+              transform:translateX(2px);
+            }
+
+            100% {
+              -webkit-transform:translateX(0);
+              transform:translateX(0);
+            }
+          }
+
+          @keyframes swing {
+            15% {
+              -webkit-transform:translateX(5px);
+              transform:translateX(5px);
+            }
+
+            30% {
+              -webkit-transform:translateX(-5px);
+              transform:translateX(-5px);
+            }
+
+            50% {
+              -webkit-transform:translateX(3px);
+              transform:translateX(3px);
+            }
+
+            65% {
+              -webkit-transform:translateX(-3px);
+              transform:translateX(-3px);
+            }
+
+            80% {
+              -webkit-transform:translateX(2px);
+              transform:translateX(2px);
+            }
+
+            100% {
+              -webkit-transform:translateX(0);
+              transform:translateX(0);
+            }
+          }
+
+          @media screen {
+            @font-face {
+            }
+
+            @media only screen and (max-width:480px) {
+              .header-pf {
+                padding-top:170px !important;
+              }
+
+              @-ms-viewport {
+                width:320px;
+              }
+
+              @viewport {
+                width:320px;
+              }
+            }
+
+            @media only screen and (min-width:420px) {
+              .mj-column-per-100 {
+                width:100% !important;
+                max-width:100%;
+              }
+
+              .mj-column-per-80 {
+                width:80% !important;
+                max-width:80%;
+              }
+
+              .mj-column-per-20 {
+                width:20% !important;
+                max-width:20%;
+              }
+
+              .mj-column-per-50 {
+                width:50% !important;
+                max-width:50%;
+              }
+
+              .mj-column-per-40 {
+                width:40% !important;
+                max-width:40%;
+              }
+
+              .mj-column-per-60 {
+                width:60% !important;
+                max-width:60%;
+              }
+            }
+
+            /*Custom Fonts*/
+            @font-face {
+              font-family:"Stag";
+              font-weight:200;
+              src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Light.woff2) format("woff2");
+            }
+
+            @font-face {
+              font-family:"Stag";
+              font-weight:600;
+              src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/Stag-Semibold.woff2) format("woff2");
+            }
+
+            @font-face {
+              font-family:"Stag Sans";
+              font-weight:200;
+              src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Light.woff2) format("woff2");
+            }
+
+            @font-face {
+              font-family:"Stag Sans";
+              font-weight:600;
+              src:url(https://university-of-hull.github.io/pattern-library/_nuxt/fonts/StagSans-Semibold.woff2) format("woff2");
+            }
+
+            #outlook a {
+              padding:0;
+            }
+
+            .ReadMsgBody {
+              width:100%;
+            }
+
+            .ExternalClass {
+              width:100%;
+            }
+
+            .ExternalClass * {
+              line-height:100%;
+              line-height:100%;
+            }
+
+            body {
+              margin:0;
+              padding:0;
+              -webkit-text-size-adjust:100%;
+              -ms-text-size-adjust:100%;
+              font-family:"Stag Sans","Roboto",Sans-Serif;
+              background-color:#FFFFFF;
+            }
+
+            table,td {
+              border-collapse:collapse;
+              mso-table-lspace:0;
+              mso-table-rspace:0;
+            }
+
+            img {
+              border:0;
+              height:auto;
+              line-height:100%;
+              outline:none;
+              text-decoration:none;
+              -ms-interpolation-mode:bicubic;
+            }
+
+            p {
+              display:block;
+              margin:13px 0;
+              font-size:1.1em;
+              font-family:"Stag Sans","Roboto",Sans-Serif;
+            }
+
+            h1 {
+              font-family:"Stag","Roboto",Sans-Serif;
+              font-size:25px;
+            }
+
+            .tick::after {
+              content:"\2714 \FE0E";
+            }
+
+            .cta-button {
+              border:2px solid #FFFFFF;
+            }
+
+            .cta-button:hover {
+              color:#ad1472 !important;
+              background:#FFFFFF !important;
+              transition:background 300ms;
+              border:2px solid #ad1472;
+              -webkit-animation:swing 1s ease;
+              animation:swing 1s ease;
+              -webkit-animation-iteration-count:1;
+              animation-iteration-count:1;
+            }
+
+            .cta-button:hover a {
+              color:#ad1472 !important;
+            }
+
+            .cta-button-footer:hover {
+              border:2px solid white !important;
+              color:#FFFFFF !important;
+              background:#ad1472 !important;
+              transition:background 300ms;
+            }
+
+            .cta-button-footer:hover a {
+              color:#FFFFFF !important;
+              background:#ad1472 !important;
+              transition:background 300ms;
+            }
+
+            @-webkit-keyframes swing {
+              15% {
+                -webkit-transform:translateX(5px);
+                transform:translateX(5px);
+              }
+
+              30% {
+                -webkit-transform:translateX(-5px);
+                transform:translateX(-5px);
+              }
+
+              50% {
+                -webkit-transform:translateX(3px);
+                transform:translateX(3px);
+              }
+
+              65% {
+                -webkit-transform:translateX(-3px);
+                transform:translateX(-3px);
+              }
+
+              80% {
+                -webkit-transform:translateX(2px);
+                transform:translateX(2px);
+              }
+
+              100% {
+                -webkit-transform:translateX(0);
+                transform:translateX(0);
+              }
+            }
+
+            @keyframes swing {
+              15% {
+                -webkit-transform:translateX(5px);
+                transform:translateX(5px);
+              }
+
+              30% {
+                -webkit-transform:translateX(-5px);
+                transform:translateX(-5px);
+              }
+
+              50% {
+                -webkit-transform:translateX(3px);
+                transform:translateX(3px);
+              }
+
+              65% {
+                -webkit-transform:translateX(-3px);
+                transform:translateX(-3px);
+              }
+
+              80% {
+                -webkit-transform:translateX(2px);
+                transform:translateX(2px);
+              }
+
+              100% {
+                -webkit-transform:translateX(0);
+                transform:translateX(0);
+              }
+            }
+
+            @media screen {
+              @font-face {
+              }
+
+              @media only screen and (max-width:480px) {
+                .header-pf {
+                  padding-top:170px !important;
+                }
+
+                @-ms-viewport {
+                  width:320px;
+                }
+
+                @viewport {
+                  width:320px;
+                }
+              }
+
+              @media only screen and (min-width:420px) {
+                .mj-column-per-100 {
+                  width:100% !important;
+                  max-width:100%;
+                }
+
+                .mj-column-per-80 {
+                  width:80% !important;
+                  max-width:80%;
+                }
+
+                .mj-column-per-20 {
+                  width:20% !important;
+                  max-width:20%;
+                }
+
+                .mj-column-per-50 {
+                  width:50% !important;
+                  max-width:50%;
+                }
+
+                .mj-column-per-40 {
+                  width:40% !important;
+                  max-width:40%;
+                }
+
+                .mj-column-per-60 {
+                  width:60% !important;
+                  max-width:60%;
+                }
+              }
+
+              @media only screen and (max-width:520px) {
+                table.full-width-mobile {
+                  width:100% !important;
+                }
+
+                td.full-width-mobile {
+                  width:auto !important;
+                }
+
+                p {
+                  font-size:25px !important;
+                  line-height:30px !important;
+                }
+
+                h1 {
+                  font-size:35px !important;
+                  line-height:40px !important;
+                }
+
+                img {
+                  width:100% !important;
+                }
+                }@media only screen and (max-width: 480px) {
+                  table#canspamBar td {
+                    font-size:14px !important;
+                  }
+
+                  table#canspamBar td a {
+                    display:block !important;
+                    margin-top:10px !important;
+                  }
+                }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div style="display:none;font-size:1px;color:#ffffff;line-height:0px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">You're invited: Virtual Applicant Experience
+      </div>
+      <div style="margin:0px auto;max-width:600px;"><img src="https://mcusercontent.com/48f31b63daa6703d1b99bb059/images/92deed56-b648-4ed6-9b7c-11b199618e13.jpg" style="width: 587px; height: 385px; left: 161px;" alt="">
+      </div>
+      <div style="margin:0px auto;max-width:600px;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#FFFFFF;vertical-align:bottom;" width="600">
+          <tbody>
+            <tr>
+              <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:15px;">
+                <div style="font-family:Stag, sans-serif;font-size:16px;text-align:left;color:#424242;max-width:600px;">
+                  <span style="font-weight:600; font-size:12px; line-height:1.2">
+                    <h1 style="color:#ad1472">IMPORTANT UPDATE ABOUT<br>
+                    Teaching at Hull
+ in September</h1>
+                    <h2>Dear {#Preferred Forename#},</h2>
+                  </span>
+                  <p>In my email to you last week, I explained that your <b>classes will start as planned in September</b>, and that teaching over the 2020/21 academic year will be delivered through a blended learning approach.</p>
+                  <p>This means <b>a combination of online <i>and</i> face-to-face learning</b>. How you learn will naturally shift over time as the COVID-19 situation develops, and in line with local and national health and safety guidance. As soon as it is safe to do so, we will be phasing in more and more face-to-face teaching.</p>
+                  <p>With this in mind, and with the UCAS deadline fast approaching, you will no doubt have many last-minute questions about starting university in September: What do I need to do now? What will my first term look like? How will you support me through all of this? </p>
+                  <p>We do not have all the answers right now but I can assure you that we will continue to keep you up to date with the latest information and confirmed plans as and when we have them. Today, I would like to personally confirm more details of how you will learn at Hull from September.</p>
+                  <h3>How teaching will work in September</h3>
+                <p>At Hull, we see learning as an active process. We will <b>provide you with learning materials</b> to work through at your own pace, with <b>tutor-facilitated activities</b> to consolidate your learning, and you will be a valued member of a supportive dynamic learning community. </p>
+                  <p>We use the <b>latest virtual-learning software</b>, as well as training and support to deliver <b>flexible, interactive teaching and student support services</b> designed with your needs at the centre. </p>
+                  <p><b>What you can look forward to:</b></p>
+                <div>
+                  <br>
+                  </div>
+                  <div style="background-color:#ad1472;padding:15px;color:#FFFFFF;">
+                    <p><span class="tick"></span> You <b>have a full e-Induction before you arrive</b>, giving you a little extra time to settle in, make friends, meet the tutors and students on your course, and familiarise yourself with our campus, services and support structures </p>
+                    <p><span class="tick"></span> You <b>join a supportive and inspirational learning community</b> of leading academics and fellow students, meeting regularly online and face-to-face to share, discuss, challenge and explore your subject together  </p>
+                    <p><span class="tick"></span> You learn through a mix of scheduled real-time and 'any time' sessions, and have <b>24/7 access to online learning through your mobile, laptop or computer</b></p>
+                    <p><span class="tick"></span> You apply what you learn through <b>participating in online lectures with interactive activities, webcasts, and discussion groups</b>, with access where appropriate to virtual classrooms, laboratories, studios and clinics </p>
+                    <p><span class="tick"></span> You are assigned <b>your own personal <a href="https://www.hull.ac.uk/choose-hull/student-life/student-support/academic-support-tutor" style="color:#ffffff;">Academic Support Tutor</a></b>, who will work with you throughout your time at Hull </p>
+                    <p><span class="tick"></span> Your <b>tutors will be in touch with you regularly</b> outlining what you need to achieve and how you will be assessed </p>
+                    <p><span class="tick"></span> You are <b>supported by our <a href="https://www.hull.ac.uk/choose-hull/study-at-hull/library/skills" style="color:#ffffff;">Skills Team</a></b> to develop your digital literacy and online learning skills, through a wide range of online skills resources, workshops and personal appointments </p>
+                    <p><span class="tick"></span> You <b>learn online through Canvas, our user-friendly virtual-learning environment</b>, plus a range of the latest learning technologies. As a Microsoft University, you also have <b>free access to the Microsoft Office suite</b></p>
+                    <p><span class="tick"></span> You learn on campus, as social distancing rules relax and the opportunities for face-to-face learning can be increased. When this is possible, <b>you learn with fellow students through small group teaching, taking advantage of the excellent facilities at the University</b> to study your particular discipline, in our laboratories, studios, clinics etc</p>
+                    <p><span class="tick"></span> You can start to <b>access our full facilities when face-to-face teaching and activities increase</b></p>
+                    <p><span class="tick"></span> You get <b>access to our award-winning <a href="https://www.hull.ac.uk/choose-hull/study-at-hull/library" style="color:#ffffff;">University Library</a> service and eResources</b> wherever you are, and whenever you need them, <b>including recommended reading list titles</b>, and wider academic information sources to support your independent studies.</p>
+                </div>
+                <p> </p>
+                <h3>Next steps</h3>
+                <p>As with everything at present, there is a chance that things may have to change, and we will continue to monitor and adapt, as needed, to any changes in the COVID-19 situation.</p>
+                <p>We remain absolutely committed to providing you with the highest quality teaching and learning experience, and are confident that whether online or face-to-face, you will succeed as a valued member of our Hull community.</p>
+                <p>Remember, we are here for you whenever you need us. If you have specific questions about your course, or you need advice about joining us in September, please get in touch: </p>
+                <p>You can join us online on Monday 15, Tuesday 16 or Wednesday 17 June for your <b>course taster session</b>, a <b>general advice session</b> and our <b>parent and guardian evening sessions</b>. </p>
+                <p>You can also <b>reach us on 01482 466100, Monday to Friday</b>, or <a href="https://www.hull.ac.uk">send us a message on our messenger chat</a>, and we will be happy to help you. To find out more and keep up to date with the latest COVID-19 changes, please read our FAQs on our website. We continue to update these regularly.</p>
+                <p><I know that I speak for everyone here at Hull when I say that we are very much looking forward to welcoming you to our campus and community in September. Until then, stay safe and look after yourself and your loved ones. /p>
+                <p>Best wishes,<br><br><strong>Professor Susan Lea</strong>
+                <br><em>Vice Chancellor</em>
+              </p>
+              <br>
+              <br>
+              <center>
+                <a href="https://www.hull.ac.uk/special/teamgb.aspx?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=aed2020&amp;utm_term=reminder&amp;utm_content=american-studies"><img src="https://static.askadmissions.co.uk/hull/usermedia/ucas19-20/logos.png" width="300" alt="University of Hull | Official University Partner of Team GB"></a>
+                <br>
+                <br>
+              </center>
+            </div>
+              <!--[if mso | IE]>
+            </td>
+          </tr>
+        </table>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:600px;" width="600">
+          <tr>
+            <td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;">
+              <![endif]-->
+              <div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+                  <tbody>
+                    <tr>
+                      <td style="direction:ltr;font-size:0px;padding:30px 0 0 0;text-align:center;vertical-align:top;">
+                        <!--[if mso | IE]>
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <td style="vertical-align:top;width:600px;">
+                              <![endif]-->
+                        <div class="mj-column-per-100 outlook-group-fix" style="font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#FFFFFF;vertical-align:top;" width="100%">
+                            <tbody>
+                              <tr>
+                                <td align="left" style="font-size:0px;padding:0 30px 30px 30px;">
+                                  <div style="font-family:sans-serif;font-size:11px;line-height:14px;text-align:left;color:#5b5b5b;">
+                                    <!-- citations-->
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!--[if mso | IE]>
+                      </td>
+                    </tr>
+                  </table>
+                  <![endif]-->
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </center>
+  <center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF;border-top:1px solid #E5E5E5;">
+      <tr>
+        <td align="center" valign="top" style="padding-top:20px;padding-bottom:20px;">
+          <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+            <tr>
+              <td align="center" valign="top" style="color:#606060;font-family:Helvetica, Arial, sans-serif;font-size:11px;line-height:150%;padding-right:20px;padding-bottom:5px;padding-left:20px;text-align:center;">
+                This email was sent to <a href="mailto:*|EMAIL|*" target="_blank" style="color:#404040 !important;">*|EMAIL|*</a>
+                <br><a href="*|ABOUT_LIST|*" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>    <a href="*|UNSUB|*" style="color:#404040 !important;">unsubscribe from this list</a>    <a href="*|UPDATE_PROFILE|*" style="color:#404040 !important;">update subscription preferences</a>
+                <br>*|LIST:ADDRESSLINE|*
+                <br>
+                <br>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+</html>
